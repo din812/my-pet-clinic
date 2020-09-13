@@ -19,7 +19,7 @@
     </parent>
     <groupId>din.springframework</groupId>
     <artifactId>my-pet-clinic</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.1</version>
     <name>my-pet-clinic</name>
     <description>My Pet Clinic Project</description>
 
@@ -48,6 +48,7 @@
 
     <scm>
         <developerConnection>scv:git:https://github.com/din812/my-pet-clinic</developerConnection>
+    <tag>my-pet-clinic-0.0.1</tag>
   </scm>
 
 </project>
