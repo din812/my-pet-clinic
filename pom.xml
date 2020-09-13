@@ -19,7 +19,7 @@
     </parent>
     <groupId>din.springframework</groupId>
     <artifactId>my-pet-clinic</artifactId>
-    <version>0.0.2</version>
+    <version>0.0.1-SNAPSHOT</version>
     <name>my-pet-clinic</name>
     <description>My Pet Clinic Project</description>
 
