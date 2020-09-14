@@ -2,15 +2,8 @@ package din.springframework.mypetclinic.services;
 
 import din.springframework.mypetclinic.model.Owner;
 
-import java.util.Set;
-
-public interface OwnerService {
+public interface OwnerService extends CrudService<Owner, Long>{
 
     Owner findByLastName(String lastName);
 
-    Owner findById(Long id);
-
-    Owner save(Owner owner);
-
-    Set<Owner> findAll();
 }
