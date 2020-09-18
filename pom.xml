@@ -15,7 +15,6 @@
             <version>2.0.3.RELEASE</version>
 
 
-
     </parent>
     <groupId>din.springframework</groupId>
     <artifactId>my-pet-clinic</artifactId>
