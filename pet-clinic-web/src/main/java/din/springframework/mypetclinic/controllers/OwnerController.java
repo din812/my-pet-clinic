@@ -26,6 +26,11 @@ public class OwnerController {
         return "owners/index";
     }
 
+    @RequestMapping({"/find"})
+    public String findOwners() {
+
+        return "notimplemented";
+    }
 
     @GetMapping("/{ownerId}")
     public ModelAndView showOwner(@PathVariable("ownerId") Long ownerId) {
