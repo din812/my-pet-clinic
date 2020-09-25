@@ -1,8 +1,6 @@
 package din.springframework.mypetclinic.services.map;
 
 import din.springframework.mypetclinic.model.Owner;
-import din.springframework.mypetclinic.services.PetService;
-import din.springframework.mypetclinic.services.PetTypeService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -76,13 +74,12 @@ class OwnerMapServiceTest {
 
     @Test
     void findByLastName() {
-        System.out.println();
-
         Owner smith = ownerMapService.findByLastName(lastName);
 
         assertNotNull(smith);
 
         assertEquals(ownerId, smith.getId());
+
     }
 
     @Test
